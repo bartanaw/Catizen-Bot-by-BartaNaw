@@ -1,10 +1,7 @@
-const correctPasswordEncoded = "YmFydGFuYXc="; 
-const userPassword = prompt("পাসওয়ার্ড লিখুন:");
+const correctPasswordEncoded = "QEFzSGlrNzA1"; 
+const userPassword = prompt("Enter Your Passsword, admin: https://www.facebook.com/AsHik705 :");
 const userPasswordEncoded = btoa(userPassword);
-
 if (userPasswordEncoded === correctPasswordEncoded) {
-  // আপনার বিদ্যমান কোড এখানে শুরু হবে
-
   const consoleRed = "font-weight: bold; color: red;";
   const consoleGreen = "font-weight: bold; color: green;";
   const consolePrefix = "%c [AutoBot] ";
@@ -50,25 +47,20 @@ if (userPasswordEncoded === correctPasswordEncoded) {
     return decodeURIComponent(escape(decodedBytes));
   }
   const encodedText = "ICBBdXRob3IgQ2hhbm5lbDog aHR0cHM6Ly90Lm1lL0JhcnRh TmF3T2ZmaWNpYWwg"; 
-  const encodedtext = "QXV0aG9yIExpbms6IGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9Bc0hpazc1NSA=";
+  const encodedtext = "IEF1dGhvciBMaW5rOiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vQXNIaWs3MDU=";
 
   const decodedText = decodeBase64(encodedText);
   const decodedtext = decodeBase64(encodedtext)
   console.log(decodedText);
   console.log(decodedtext)
-
-  // আপনার বিদ্যমান কোড এখানে শেষ হবে
 } else {
-  console.log("ভুল পাসওয়ার্ড। আবার চেষ্টা করুন।");
-
-//এখানে নিচের অংশ ভুল পাসওয়ার্ড দিলে আসবে।
+  console.log("Wrong, Try Again।");
   function decodeBase64(encodedText) {
     const decodedBytes = atob(encodedText);
     return decodeURIComponent(escape(decodedBytes));
   }
   const encodedText = "ICBBdXRob3IgQ2hhbm5lbDog aHR0cHM6Ly90Lm1lL0JhcnRh TmF3T2ZmaWNpYWwg"; 
-  const encodedtext = "QXV0aG9yIExpbms6IGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9Bc0hpazc1NSA=";
-
+  const encodedtext = "IEF1dGhvciBMaW5rOiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vQXNIaWs3MDU=";
   const decodedText = decodeBase64(encodedText);
   const decodedtext = decodeBase64(encodedtext)
   console.log(decodedText);
